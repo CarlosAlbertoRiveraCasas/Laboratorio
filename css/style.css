@@ -1,0 +1,75 @@
+body{
+  font: 15px Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color:rgb(237, 237, 237);
+}
+footer{
+  background-color:rgb(181, 182, 185);
+  padding-top: 10px;
+}
+img {
+  width:90%;
+}
+.imgencabezado{
+  width:50px;
+}
+.imgcaja{
+  width:250px;
+  background-color: rgb(208, 208, 208);
+  border-top: 3px solid rgb(0, 0, 0);
+  border-left: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+h1{
+  width:100%;
+  font-weight: bold;
+}
+h3{
+  padding-top:none;
+  border-top: 3px solid rgb(0, 0, 0);
+  border-left: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+.contenedor{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* Encabezado */
+header{
+  background-color: rgb(45, 120, 2);
+  color: white;
+  padding-top: 30px;
+  min-height: 50px;
+  border-bottom: 5px solid rgb(41, 250, 92);
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .resaltado, header .actual a{
+  color: rgb(0, 15, 0);
+  font-weight: bold;
+}
+#login{
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
